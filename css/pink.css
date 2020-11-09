@@ -1,0 +1,17 @@
+             .logo a::before {
+                 border-top: 4px solid crimson;
+                 border-left: 4px solid crimson;
+             }
+             
+             .logo a::after {
+                 border-right: 4px solid crimson;
+                 border-bottom: 4px solid crimson;
+             }
+             .logo a:hover::after{
+                display: none;
+             }
+             .logo a:hover::before{
+                display: none;
+             }
+            
+            
