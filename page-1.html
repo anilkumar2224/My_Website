@@ -22,7 +22,21 @@
   <link rel="stylesheet" href="css\cards.css" type="text/css">
 
 
- 
+ <style>
+     @keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+#hb:hover {
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+    transform: scale(1.1);
+}
+ </style>
 	
 
   
@@ -35,7 +49,8 @@
     <script>
          var lode=document.getElementById('lode1');
         function fun(){
-        lode.style.display='none';
+            
+            lode.style.display='none';
         
     
     }  
@@ -79,18 +94,28 @@
                     </li>
                 </ul>
                 <div class="menu-btn">
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars ii" ></i>
                 </div>
           
         </div>
     </nav>
+    <script>
+        $(document).ready(function(){
+            $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn .ii').toggleClass("active");
+
+    });
+});
+    </script>
   <!--home section-->
   <section class="home" id="home">
       <div class="maxw">
           <div class="home-content">
               <div class="text1"><p style="font-size: 130%;" class="s-text-color-white"><em>Hey, I'm</em></p></div>
+              
               <div class="line" style="width: 280px;"><h1><span></span>
-                <span></span><span></span> <div style="font-size: 52px;">Anil Kumar</div></h1></div>
+                <span></span><span></span><div class="space"></div> <div style="font-size: 52px;">Anil Kumar</div></h1></div>
                 
                 <div class="text3"><em>And, I'm a</em> <span class="typing"><em>WebDesigner</em><span> </span></div>
           </div>

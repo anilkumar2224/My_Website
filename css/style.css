@@ -15,12 +15,15 @@
     z-index: 999999;
 }
 
+
 * {
+
     margin: 0;
     padding: 0;
     
     text-decoration: none;
     box-sizing: border-box;
+    
 }
 
 html{
@@ -254,7 +257,7 @@ left: 0;
     width: 100%;
 }
 
-.navbar .menu li:hover {
+#hb:hover {
     color: white;
     text-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
     transform: scale(1.1);
@@ -349,12 +352,12 @@ left: 0;
 
 .line h1 {
     
- 
+
     font-weight: 300;
     font-family: 'Galada', cursive;
     margin: 30px 0 5px;
    overflow: hidden;
-    text-align: center;
+   
     position: relative;
     display: flex;
     
