@@ -29,6 +29,11 @@ $(document).ready(function(){
 
         $('html').animate({scrollTop:0});
     });
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn .ii').toggleClass("active");
+
+    });
 
    
 });
