@@ -26,6 +26,12 @@
      -webkit-tap-highlight-color: transparent !important;
     
 }
+ul{
+     -webkit-tap-highlight-color: transparent !important;
+}
+button{
+     -webkit-tap-highlight-color: transparent !important;
+}
 
 html{
     scroll-behavior: smooth;
