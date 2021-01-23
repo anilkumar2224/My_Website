@@ -59,10 +59,10 @@ html{
 /*animation*/
 .logo {
     padding: 5px 0;
-    animation-name: floating;
+/*     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
     width: 750px;
 }
 
