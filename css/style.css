@@ -333,7 +333,7 @@ left: 0;
     display: flex;
     background: url('back2.jpg') no-repeat center;
     height: 100vh;
-    background-size: 100% 100%;
+    background-size:cover;
     color: #fff;
     min-height: 500px;
     font-family: 'Rubik', sans-serif;
