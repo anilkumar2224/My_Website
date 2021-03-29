@@ -337,6 +337,7 @@ left: 0;
     color: #fff;
     min-height: 500px;
     font-family: 'Rubik', sans-serif;
+    background-color:rgba(0,0,0,.7);
 }
 .home .maxw{
     margin: auto 0 auto 42% ;
