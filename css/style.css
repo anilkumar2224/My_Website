@@ -331,7 +331,7 @@ left: 0;
 /*home section*/
 .home{
     display: flex;
-    background: url('back.jpg') no-repeat center;
+    background: url('back.png') no-repeat center;
     height: 100vh;
     background-size: 100% 100%;
     color: #fff;
