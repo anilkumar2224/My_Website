@@ -8,7 +8,7 @@
     function frame() {
         if (loading == 130) {
             clearInterval(id);
-          window.open("page-1.html", "_self");
+          window.open("main.html", "_self");
           
         } else {
             loading = loading + 1;
